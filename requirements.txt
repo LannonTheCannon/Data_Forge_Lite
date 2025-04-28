@@ -5,7 +5,6 @@ langchain==0.3.24
 langchain-openai==0.3.14
 langchain-community==0.3.22
 langgraph==0.2.74
-pandas>=2.2.2
 numpy>=1.26.4
 seaborn>=0.13.2
 matplotlib>=3.8.4
