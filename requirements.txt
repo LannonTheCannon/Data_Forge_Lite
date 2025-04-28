@@ -1,7 +1,7 @@
 streamlit>=1.32.2
 openai
 openpyxl
-langchain==0.3.24
+langchain==0.1.14
 langchain-openai==0.3.14
 langchain-community==0.3.22
 langgraph==0.2.74
