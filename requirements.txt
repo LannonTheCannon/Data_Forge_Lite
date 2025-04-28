@@ -9,6 +9,6 @@ seaborn>=0.13.2
 matplotlib>=3.8.4
 plotly>=5.20.0
 streamlit-flow-component==1.6.1
-streamlit-code-editor>=0.1.10   
-ai-data-science-team>=0.0.2
+streamlit-code-editor>=0.1.10
+ai-data-science-team
 ipython
