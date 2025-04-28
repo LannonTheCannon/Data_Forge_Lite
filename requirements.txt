@@ -21,4 +21,3 @@ gdown
 streamlit-ace
 streamlit-elements
 streamlit-flow-component
-streamlit-code-editor
