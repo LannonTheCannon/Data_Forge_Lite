@@ -1,10 +1,10 @@
 streamlit>=1.32.2
 openai
 openpyxl
-langchain==0.1.14
+langchain==0.3.23
 langchain-openai==0.3.14
-langchain-community==0.3.22
-langgraph==0.2.74
+langchain-community==0.3.21
+langgraph==0.3.31
 numpy>=1.26.4
 seaborn>=0.13.2
 matplotlib>=3.8.4
