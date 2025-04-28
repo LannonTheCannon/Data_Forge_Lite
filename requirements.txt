@@ -1,8 +1,10 @@
 streamlit>=1.32.2
 openai
+openpyxl
 langchain==0.3.24
 langchain-openai==0.3.14
 langchain-community==0.3.22
+langgraph==0.2.74
 pandas>=2.2.2
 numpy>=1.26.4
 seaborn>=0.13.2
@@ -12,3 +14,5 @@ streamlit-flow-component==1.6.1
 streamlit-code-editor>=0.1.10
 ai-data-science-team
 ipython
+pandasai==1.4.10
+pandas==1.5.3
