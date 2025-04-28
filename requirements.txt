@@ -1,0 +1,24 @@
+openpyxl
+langchain
+langchain_community
+langchain_openai
+langchain_experimental
+langgraph >= 0.2.74
+openai
+sqlalchemy
+numpy==1.26.4
+plotly
+streamlit
+scikit-learn
+xgboost
+psutil
+ai-data-science-team
+dtale
+pandasai==1.4.10
+pandas==1.5.3
+seaborn
+gdown
+streamlit-ace
+streamlit-elements
+streamlit-flow-component
+streamlit-code-editor
