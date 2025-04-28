@@ -1,12 +1,14 @@
 streamlit>=1.32.2
-openai>=1.14.2
+openai
 langchain>=0.1.14,<0.2.0
 langchain-openai>=0.0.8,<0.1.0
+langchain-community==0.3.22
 pandas>=2.2.2
 numpy>=1.26.4
 seaborn>=0.13.2
 matplotlib>=3.8.4
 plotly>=5.20.0
 streamlit-flow-component==1.6.1
-streamlit-code-editor>=0.1.10
+streamlit-code-editor>=0.1.10   
 ai-data-science-team>=0.0.2
+ipython
