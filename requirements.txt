@@ -13,5 +13,4 @@ streamlit-flow-component==1.6.1
 streamlit-code-editor>=0.1.10
 ai-data-science-team
 ipython
-pandasai==1.4.10
 pandas==1.5.3
