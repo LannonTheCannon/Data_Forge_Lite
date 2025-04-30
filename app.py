@@ -95,11 +95,20 @@ if "curr_state" not in st.session_state:
     st.session_state.mindmap_nodes = {"S0": root_theme}
     st.session_state.curr_state = StreamlitFlowState(nodes=[root_theme.to_streamlit_node()], edges=[])
 
-for key in ["chart_path", "df", "df_preview", "df_summary", "metadata_string", "saved_charts", "DATA_RAW", "plots",
-            "dataframes", "msg_index", "clicked_questions", "dataset_name"]:
+for key in [
+    "chart_path", "df", "df_preview", "df_summary", "metadata_string",
+    "saved_charts", "DATA_RAW", "plots", "dataframes", "msg_index",
+    "clicked_questions", "dataset_name"
+]:
     if key not in st.session_state:
-        st.session_state[key] = None if key in ["chart_path", "df", "df_preview", "df_summary", "metadata_string", "DATA_RAW"] else []
-
+        if key == "df":
+            # seed with an empty DataFrame so .columns always exists
+            st.session_state[key] = pd.DataFrame()
+        elif key in ["chart_path", "df_preview", "df_summary", "metadata_string", "DATA_RAW"]:
+            st.session_state[key] = None
+        else:
+            st.session_state[key] = []
+            
 if "expanded_nodes" not in st.session_state:
     st.session_state.expanded_nodes = set()
 
