@@ -108,7 +108,7 @@ for key in [
             st.session_state[key] = None
         else:
             st.session_state[key] = []
-            
+
 if "expanded_nodes" not in st.session_state:
     st.session_state.expanded_nodes = set()
 
