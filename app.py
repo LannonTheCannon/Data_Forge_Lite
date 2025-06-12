@@ -46,7 +46,6 @@ st.session_state['OPENAI_API_KEY'] = st.sidebar.text_input(
 if st.session_state['OPENAI_API_KEY']:
     # Set the API key for OPENAI
 
-
     # Test the API key (optional)
     try:
         llm = ChatOpenAI(
